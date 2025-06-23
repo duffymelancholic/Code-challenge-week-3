@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-blog-web</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div id="post-list"></div>
+    <div id="post-detail"></div>
+
+    <div id="post-list"></div>
+<div id="post-detail"></div>
+
+<form id="new-post-form">
+  <input name="title" placeholder="Title" required />
+  <input name="content" placeholder="Content" required />
+  <input name="author" placeholder="Author" required />
+  <button type="submit">Add Post</button>
+</form>
+
+<form id="edit-post-form" class="hidden">
+  <input name="title" id="edit-title" />
+  <textarea name="content" id="edit-content"></textarea>
+  <button type="submit">Update Post</button>
+  <button type="button" id="cancel-edit">Cancel</button>
+</form>
+<script src=src/index.js></script>
+
+</body>
+</html>
